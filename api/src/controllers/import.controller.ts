@@ -204,9 +204,6 @@ export class ImportController {
             added: termsToAdd.length,
             skipped: incoming.translations.length - termsToAdd.length,
           },
-          translations: {
-            upserted: translationsToAdd.length,
-          },
         },
       };
     });
